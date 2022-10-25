@@ -1,13 +1,67 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-    background: linear-gradient(rgba(192, 48, 48, 0.774),rgb(0, 0, 0));
-    border-bottom: solid black 5px;
+  background: linear-gradient(rgba(192, 48, 48, 0.774), rgb(0, 0, 0));
+  border-bottom: solid black 5px;
+  margin: 10px;
+  /* transform: skew(5deg); */
 }
 
 h1 {
-    color: black;
+  color: rgb(161, 161, 161);
+  font-size: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-shadow: black 2px 2px;
+}
+
+nav {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px rgb(133, 32, 32);
+}
+
+.about {
+  background: linear-gradient(rgb(0, 0, 0), rgba(192, 48, 48, 0.774));
+  border-bottom: solid rgba(207, 101, 101, 1) 5px;
+  margin: 10px;
+  /* transform: skew(-5deg); */
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.profilepic {
+  position: relative;
+  display: inline;
+  height: 530px;
+  width: 520px;
+  padding: 10px 10px 10px 10px;
+}
+
+.row {
+  display: flex;
 }
